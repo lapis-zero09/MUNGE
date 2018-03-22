@@ -64,7 +64,7 @@ synthetic data with MUNGE
 
 <img src="img/munge_p_0.8s_10.0.png" width="100%">
 
-## dependencies
+## Dependencies
 
 - weka: https://www.cs.waikato.ac.nz/ml/weka/
 - py4j: https://www.py4j.org/

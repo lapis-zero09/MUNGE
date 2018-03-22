@@ -54,7 +54,7 @@ int k = 1000000;
 
 ### Result
 
-./MUNGE_example.ipynb
+詳細は[MUNGE_example.ipynb](./MUNGE_example.ipynb)
 
 iris data with normalization
 

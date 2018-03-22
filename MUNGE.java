@@ -108,7 +108,7 @@ public class MUNGE {
 
         // parameter
         double p = 0.8;
-        double s = .001;
+        double s = .01;
         int k = 1000;
         int iter = (int)(k/t.numInstances()+1);
 

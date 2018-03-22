@@ -28,13 +28,11 @@ if __name__ == '__main__':
     gateway = JavaGateway(start_callback_server=True)
     gateway_inst = gateway.entry_point
 
-    try:
-        x = np.load('./data/X_train.npy')
-    except:
-        x = np.load('./data/X_train.npz')['d']
+    data = np.load('./data/data.npy')
+
 
     try:
-        munge = calc_munge_on_java(x, gateway_inst)
+        munge = calc_munge_on_java(data, gateway_inst)
     except:
         gateway.shutdown()
         raise Exception('[!] Error from Java...')

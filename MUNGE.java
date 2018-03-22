@@ -103,6 +103,8 @@ public class MUNGE {
         // 1 : other
         int[] l = new int[m_numAttr];
         Arrays.fill(l, 0);
+        // for (int i = 0; i < 10; i++)
+        //     l[i] = 0;
 
         // parameter
         double p = 0.5;

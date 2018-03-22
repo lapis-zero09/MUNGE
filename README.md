@@ -8,9 +8,12 @@
 
 ### データの用意
 
-- Standardization
+データは正規化する
+> Continuous attributes are linearly scaled to [0,1].
 
-101行目から
+
+
+また，101行目から
 MUNGEでは各特徴量が連続であるか否かを入力として与える必要がある．
 
 以下は全ての特徴量が連続の場合の例

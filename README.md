@@ -57,12 +57,12 @@ int k = 1000000;
 
 iris data with normalization
 
-<img src="img/iris.png" width="50%">
+<img src="img/iris.png" width="100%">
 
 
 synthetic data with MUNGE
 
-<img src="img/munge_p_0.8s_10.0.png" width="50%">
+<img src="img/munge_p_0.8s_10.0.png" width="100%">
 
 ## dependencies
 

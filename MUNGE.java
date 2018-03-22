@@ -107,9 +107,9 @@ public class MUNGE {
         //     l[i] = 0;
 
         // parameter
-        double p = 0.5;
-        double s = 10;
-        int k = 1000000;
+        double p = 0.8;
+        double s = .001;
+        int k = 1000;
         int iter = (int)(k/t.numInstances()+1);
 
         // for Stream
@@ -136,7 +136,7 @@ public class MUNGE {
                 }
             });
 
-        String filename = "./data/munge.arff";
+        String filename = "./data/munge_p_" + p + "s_" + s + ".arff";
         ArffSaver saver = new ArffSaver();
         saver.setInstances(d);
         saver.setFile(new File(filename));

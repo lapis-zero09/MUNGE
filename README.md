@@ -6,7 +6,7 @@
 
 ## MUNGE
 
-### データの用意
+### Preparation of data
 
 データは正規化する
 > Continuous attributes are linearly scaled to [0,1].
@@ -29,7 +29,7 @@ Arrays.fill(l, 0);
 ```
 
 
-### 実行
+### Run
 
 ```sh
 cd MUNGE
@@ -51,6 +51,18 @@ int k = 1000000;
 - Output: `data/data.arff`
 
 
+### Result
+
+./MUNGE_example.ipynb
+
+iris data with normalization
+
+<img src="img/iris.png" width="50%">
+
+
+synthetic data with MUNGE
+
+<img src="img/munge_p_0.8s_10.0.png" width="50%">
 
 ## dependencies
 
